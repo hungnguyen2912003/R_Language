@@ -1,0 +1,6 @@
+hist(distance)
+hist(distance, main = "Frequency histogram")
+hist(distance, main = "Frequency histogram", xlab = "x asix", ylab = "y axis")
+hist(distance, main = "Frequency histogram", xlab="x axis", ylab="y axis", xlim=c(0,500), ylim=c(0,10))
+hist(distance, main = "Frequency histogram", xlab="x axis", ylab="y axis", xlim=c(0,500), ylim=c(0,10), col="red")
+hist(distance, main = "Frequency histogram", xlab="x axis", ylab="y axis", xlim=c(0,500), ylim=c(0,10), col="red", border="lightblue")
